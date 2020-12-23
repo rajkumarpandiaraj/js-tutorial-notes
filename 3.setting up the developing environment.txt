@@ -1,0 +1,3 @@
+                        3.setting up the development environment
+
+installing the firefox for this tutorial and using the scratch pad in the firefox developer tools

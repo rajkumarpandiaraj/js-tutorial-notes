@@ -1,0 +1,66 @@
+                                        4.variables and Types
+
+variable declaration :
+    var value = 42; or var value; value = 20;
+    In JS no need to mention the type of the variable lyk int,char, float etc...,
+
+Number Primitive types :
+Primitive Types : [comes with language]
+    -> Number
+    -> String
+    -> Boolean
+    -> undefined
+    -> null
+    -> symbol (new onw)
+Number :
+    Numbers in JavaScript are "double-precision 64-bit format IEEE 754 values"
+    no integer
+    In js 1 is not an integer. It is also an double
+
+Strings :
+    sequences of unicode characters(16-bit)
+    no character type. A character is just a string of length 1.
+
+Boolean :
+    true/false.
+
+undefined :
+    declaration :
+        var value //variable declaration
+    definition :
+        value = 21; //variable definition
+        var value = 21 //variable declaration and definition in on line
+    
+    declared variable automatically holds the value of undefined if we didn't done the variable definition.
+Example :
+    var value;
+    console.log(value)// undefined
+    value = 22;
+    console.log(value)//22
+
+null :
+    var a = null
+    condole.log(a)//null
+
+Difference between undefined vs null :
+    null :
+        it is the value given to the variable purprosally by the user to make variable value as empty.
+    undefined :
+        it is default empty value given to the variable by JS.
+
+Summary :
+    -> no need to declare variable type.
+    -> The same variable can be assigned values of different types.
+    -> No scoping information in variable declarations.[public,void lyk that]
+    -> variables and values can be "interrogated"
+
+typeof Operator :
+    var a = 21;
+    var b = 'hi';
+    var c = true;
+    var d = null;
+    console.log(typeof a) //number
+    console.log(typeof b) // string
+    console.log(typeof c) // Boolean
+    console.log(typeof d) // object
+

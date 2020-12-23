@@ -1,0 +1,33 @@
+                                            6.Objects
+
+Javascript is Object oriented but the are not class based. There is no concept called class in JS.
+
+Creating object in Inline:
+    var myObj = {} //This is an empty Obj.
+
+Adding property to the Obj:
+    Basically obj consists properties and methods or data and functionalities.
+        myObj.name = 'sk'
+        myObj.age = 22
+        console.log(myObj) //myObj{ name : 'sk', age : 22 }
+    
+Accessing the particular property :
+    console.log('name', myObj.name);
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+Creating Obj using Object Literals :
+    var myObj2 = {
+        name : 'rk',
+        age : 22
+    }
+
+In Javascript Obj, if we access the property doesn't exist it returns an undefined instead of an error.
+EXAMPLE :
+    console.log(myObj2.lastName) //undefined.
+
+Javascript Object SUMMARY :
+    -> free-form not bound to class.
+    -> Object Literal notation to create Objects.
+    -> Object properties can be accessed directly.
+    -> new properties can be added on Objects directly.
+    -> Object can have methods 

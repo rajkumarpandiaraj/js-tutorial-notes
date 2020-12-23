@@ -1,0 +1,28 @@
+                                        1.Introduction
+
+About the course :
+        javascript for developers.
+        Difference between js and classical languages.
+        Unique concepts.
+        Resources and next steps.
+
+What is javascript?
+        javascript (often shortened to JS)
+        is a lightweight,interpreted,Object-oriented language
+        with first-class functions,
+        and is best known as the scripting language for web pages,
+        but it's used in many non-browser environment as well.
+
+    lightweight --> small memory footprint, easy to implement
+    interpreted --> no compilation, Instructions executed directly.
+    Object-oriented --> Modeled around objects.
+    first-class functions --> Functions as values[func can be assigned to variables].
+    scripting language --> instructions written for a run time environment.
+
+Run time environment [A web browser]
+    ->webPage -> url ->server[accessing the url] -> webPage for the url travels in https in Html form(bunch of string)
+    -> reaches the browser(form the tags as parent obj and child obj) and forms the dom trees -> displayes the dom trees
+
+    Html is a static one displays the same thing for the different refreshes...
+
+    with the help of JS we can change/edit/delete/create/modify the dom tree for the different refreshes of the page.

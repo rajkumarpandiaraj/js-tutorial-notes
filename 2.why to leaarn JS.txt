@@ -1,0 +1,24 @@
+                            2.Why to learn Javascript 
+
+why learn Javascript?
+    -> client side web development
+        -> native Javascript
+        -> jquery
+        -> AngularJS, ReactJS, Ember
+
+    -> server side development
+        -> NodeJS
+        -> Express
+
+    -> Browser extension
+    -> Desktop Application
+    -> Mobile Application
+    -> IOT Application
+
+History of Javascript?
+    -> created by Brendan Eich at netscape[Netscape Navigator and Ms internet explorer]
+    -> created to complement java[that tym java is used to client side]
+    -> created around in 10days
+    -> Designed to be "easy"
+    -> Standardized as ECMAScript.
+    

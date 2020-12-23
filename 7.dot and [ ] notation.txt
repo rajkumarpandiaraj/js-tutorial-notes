@@ -1,0 +1,31 @@
+                                        7.dot and [] notation
+
+var myObj = {
+    "name" : 'sk',
+    "age" : 22,
+    "1" : 'one'
+}
+
+Accessing the property with dot and [] notation
+    console.log(myObj.name) // sk
+    console.log(myObj[age]) // 22
+
+Dot vs Square bracket [] notation :
+    -> use [] notation when :
+        -> property name is a reserved word/ invalid identifier // '1' is a invalid identifier
+            FOR EXAMPLE :
+                    console.log(myObj.1) // syntax error
+                    console.log(myObj['1']) // one
+
+        -> property name is Dynamic
+            FOR EXAMPLE :
+                    var accessTheProp = 'name'
+                    console.log(myObj.accessTheProp) // error
+                    console.log(myObj[accessTheProp]) // sk
+        
+        -> Runtime engine may not be able to optimize [] notation.
+        -> Dot and [] notation can be interchanged...
+
+Dot notation is faster the [] notation
+Always prefer to use Dot notation
+
